@@ -1,5 +1,80 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/NotoSans-Regular.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minecraft Ten';
+    src: url('../fonts/MinecraftTen.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minecraft Seven';
+    src: url('../fonts/MinecraftSeven.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', serif;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #262423;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, .25);
+}
+
+.header_logo {
+    width: 222px;
+}
+
+.header_menu {
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.header_menu a {
+    font-family: 'Noto Sans', serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.header_menu a:hover {
+    color: #1dc812;
+}
+
+.buy_link {
+    display: block;
+    padding: 6px 12px;
+    background: #3C8527;
+    border: 2px solid #52A535;
+    text-decoration: none;
+    font-family: 'Noto Sans', serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    text-transform:  uppercase;
+}
+
+.buy_link:hover {
+    background: #2a641c;
 }
