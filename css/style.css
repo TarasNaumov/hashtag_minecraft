@@ -29,6 +29,12 @@ body {
     font-family: 'Noto Sans', serif;
 }
 
+header {
+    height: 82vh;
+    background: url("../img/header_bg.jpg") no-repeat center right;
+    background-size: cover;
+}
+
 .header_top {
     display: flex;
     justify-content: space-between;
@@ -44,7 +50,7 @@ body {
 
 .header_menu {
     display: flex;
-    column-gap: 30px;
+    column-gap: 45px;
     list-style: none;
 }
 
@@ -76,5 +82,5 @@ body {
 }
 
 .buy_link:hover {
-    background: #2a641c;
+    background: #86d562;
 }
