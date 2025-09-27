@@ -149,3 +149,55 @@ main {
 .newest_news .section_title {
     margin-bottom: 55px;
 }
+
+.newest_news .section_description_link {
+    text-decoration: none;
+}
+
+.newest_news .section_description_link:hover {
+    text-decoration: underline;
+}
+
+.release_container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.release_container>div {
+    position: relative;
+    width: 16%;
+}
+
+.release_container .release_absolut {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(23, 22, 21, .8);
+    padding: 14px 12px;
+}
+
+.release_absolut .category {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Minecraft Seven', serif;
+    letter-spacing: 0.56px;
+    padding: 0 4px 1px;
+    text-align: center;
+    box-shadow: 2px 2px 0 0 #0000004d;
+    background: #fff;
+    margin-bottom: 6px;
+}
+
+.release_absolut .release_description {
+    font-family: 'Minecraft Seven', serif;
+    color: #fff;
+    line-height: 24px;
+}
+
+.author_content {
+    padding: 48px 60px 32px;
+    color: #fff;
+    text-align: center;
+}
