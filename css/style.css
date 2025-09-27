@@ -33,6 +33,7 @@ header {
     height: 82vh;
     background: url("../img/header_bg.jpg") no-repeat center right;
     background-size: cover;
+    border-bottom: 4px solid #3d3938;
 }
 
 .header_top {
@@ -83,4 +84,68 @@ header {
 
 .buy_link:hover {
     background: #86d562;
+}
+
+main {
+    background: #171615;
+}
+
+.discover_our_games {
+    padding: 48px 60px 40px;
+}
+
+.section_title {
+    font-family: 'Minecraft Ten', serif;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.section_description_link {
+    display: block;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #6cc349;
+}
+
+.section_description_link:hover {
+    color: #fff;
+}
+
+.game_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game_container .game {
+    width: 24%;
+}
+
+.game img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.game_title {
+    font-family: 'Noto Sans', serif;
+    font-size: 24px;
+    letter-spacing: 0.94px;
+    color: #fff;
+}
+
+.game_description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #aba09c;
+}
+
+.newest_news {
+    padding: 80px 72px;
+    background: #262423;
+}
+
+.newest_news .section_title {
+    margin-bottom: 55px;
 }
