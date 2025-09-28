@@ -218,6 +218,38 @@ main {
     text-align: center;
 }
 
+.minecraft_dungeons {
+    padding: 80px;
+    background: #4f1030;
+}
+
+.minecraft_dungeons .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 48px;
+}
+
+.minecraft_dungeons .card img{
+    width: 300px;
+    height: 400px;
+}
+
+.minecraft_dungeons .card {
+    width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.minecraft_dungeons .card h3 {
+    font-size: 24px;
+    font-family: "Minecraft Seven", serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
 footer {
     background: #111;
 }
